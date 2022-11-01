@@ -188,6 +188,10 @@ function getMulticall2(chainId: number): Multicall | null {
       address: '0x96DB1F8055074aB62161B6Ad66Ab6B8679513DeF',
       block: 0,
     },
+    1313161554: {
+      address: '0x763FA754b3048F1B027eD7f5297FF9882c3e21df',
+      block: 68360212,
+    },
   };
   return addressMap[chainId];
 }
