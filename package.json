@@ -19,7 +19,7 @@
     "lint:eslint": "eslint \"{src,test}/**/*.ts\"",
     "lint:prettier": "prettier -c \"{src,test}/**/*.{json,js,ts}\"",
     "build": "tsc --p tsconfig.build.json",
-    "prepack": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.0.0",
